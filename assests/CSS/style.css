@@ -1,0 +1,366 @@
+body {
+    font-family: sans-serif;
+    background-color:white;
+    position: relative;
+    min-width: 550px;
+    max-width: 1920px;
+    height: 100%;
+}
+
+p{
+    margin-right: 5%;
+    color: orange;
+    text-decoration: none;
+}
+
+a{
+    color: purple;
+    text-decoration: none;
+}
+
+/* Header */
+header {
+  background-color: orange;
+  height: 4.7em;
+  }
+  
+header h1{
+      width: 250px;
+      min-width: 201px;
+      max-width: 20%;
+      top: 10px;
+      position: relative;
+      background-color: purple;
+      display: flex;
+      justify-content: flex-end;
+      flex: 0 1 250px;
+      height: 1.3em;
+      font-size: 30px;
+      padding-top: 12px;
+      padding-right: 10px;
+      color: orange;
+      font-weight: 900;
+  }
+
+  /* Navigation bar in Header */
+.nav-space{
+    font-size: large;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 1.5em;
+    padding-right: 5%;
+}
+
+.nav-space li{
+    padding-right: 7px;
+    font-weight: 550;
+    color: purple; 
+    
+}
+
+.nav-space li a:hover{
+    background-color: purple;
+    color: white;
+}
+
+.nav-space li a{
+    color: inherit;
+    text-decoration: none;
+    text-decoration: underline 3.2px purple;
+    text-underline-position: under;
+}
+
+/* Blue pattern image below Header */
+ .header-graphic img {
+    height: 12em;
+    width: 100%;
+    object-fit: cover;
+ }
+
+/* Text on top of the blue pattern image below the header */
+  figure div{
+    height: inherit;
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 4em;
+  }
+
+  figure div h2{
+    margin-left: 25%;
+    margin-right: 25%;
+    color: orange;
+    background-color: purple;
+    font-size: 170%;
+    font-weight: 500;
+    padding: .8%;
+  }
+
+/* Addresses all Section containers and the h1's in them */
+ section{
+    padding-bottom: 35px;
+ }
+
+  section h1 {
+  font-size: 50px;
+  margin-left: 30px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: -.09em;
+  text-align: right;
+  min-width: 157px;
+  }
+
+/* About Me section */
+.info{
+    margin-left: 5%;
+    max-width: 95%;
+    display: flex;
+    position: relative;
+}
+
+.info h1{
+    padding-right: 20px;
+    margin-right: 3%;
+    border-right: purple 3px solid;
+    text-align: right;
+    color: purple;
+}
+
+.info p{
+    width: 95%;
+    height: 100%;
+    min-width: 200px;
+}
+
+/* Work section */
+.boxes {
+    margin-left: 5%;
+    max-width: 95%;
+    display: flex;
+    position: relative;
+}
+
+.boxes h1{
+    padding-right: 20px;
+    margin-right: 3%;
+    border-right: purple 3px solid;
+    text-align: right;
+    color: purple;
+}
+
+/*.boxes container is inside of the Work section and it houses all the work projects 1-5 */
+.workbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Project 1 */
+.project1{
+    margin-bottom: 3em;
+    display: inherit;
+    align-items: center;
+    margin: 10px;
+    width: 95%;
+}
+
+.project1 img{
+    height: 12em;
+    width: 100%;
+    object-fit: cover;
+    border: purple solid 3px;
+    filter: blur(1.5px);
+  -webkit-filter: blur(1.5px);
+}
+
+/* Addresses the images */
+.boxes figure{
+    height: 200px;
+    width: 100%;
+}
+
+figure:hover a img{
+    filter: blur(0px);
+    cursor: grab;
+}
+
+/* Addresses the text over the project images */
+figure h3{
+    position: relative;
+    bottom: 4.3em;
+    color: orange;
+    font-weight: 550;
+    background-color: purple;
+    width: 140px;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+span{
+    font-weight: 300;
+    font-size: 80%;
+}
+
+/* Project 2 */
+.project2 img{
+    height: 12em;
+    width: 100%;
+    object-fit: cover;
+    border: purple solid 3px;
+    filter: blur(1.5px);
+  -webkit-filter: blur(1.5px);
+}
+
+/* Project 3 */
+.project3 img{
+    height: 12em;
+    width: 100%;
+    object-fit: cover;
+    border: purple solid 3px;
+    filter: blur(1.5px);
+  -webkit-filter: blur(1.5px);
+}
+
+/* Project 4 */
+.project4 img{
+    height: 12em;
+    width: 100%;
+    object-fit: cover;
+    border: purple solid 3px;
+    filter: blur(1.5px);
+  -webkit-filter: blur(1.5px);
+}
+
+/* Project 5 */
+.project5 img{
+    height: 12em;
+    width: 100%;
+    object-fit: cover;
+    border: purple solid 3px;
+    filter: blur(1.5px);
+  -webkit-filter: blur(1.5px);
+}
+
+/* Addresses the dimensions of the containers fot projects 2-5 */
+.project2,
+.project4{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-right: 3.8%;
+    width: 45%;
+}
+
+.project3,
+.project5{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    width: 45%;
+}
+
+/* Contact Me section */
+.contact{
+    margin-left: 5%;
+    display: flex;
+    position: relative;
+}
+
+.contact h1{
+    padding-right: 20px;
+    margin-right: 3%;
+    border-right: purple 3px solid;
+    text-align: right;
+    color: purple;
+}
+
+/* Navigation bar in Contact Me section */
+.nav{
+    display: flex;
+    height: 100%;
+    width: 85%;
+    justify-content: center;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+
+.nav a{
+    padding-right: 10px;
+    margin-top: 50px;
+    text-decoration: none;
+    text-decoration: underline 3.2px purple;
+    text-underline-position: under;
+    width: fit-content;
+}
+
+.nav a:hover{
+    background-color: purple;
+    color: orange;
+    padding: 3px;
+}
+
+/*Bottom of the page */
+footer {
+    background-color: orange;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    color: purple;
+}
+
+/* Adjustments made to accomodate screens at or below 780 px */
+@media screen and (max-width: 780px ){
+    header{
+        height: 8em;
+        transition: height 1s;
+    }
+
+    header h1{
+        display: flex;
+        flex-direction: column;
+        line-height: 30px;
+        min-width: 100px;
+        min-height: 70px;
+        justify-content: center;
+        transition: all 2s;
+    }
+
+    .header-graphic{
+        width: 100%;
+        margin: 0%;
+    }
+
+    .aboutme,
+    .work,
+    .contact{
+        margin-left: 0%;
+        transition: margin-left 1s;
+    }
+
+    .project2,
+    .project4, figure{
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+    }
+    
+    .project3,
+    .project5, figure{
+        display: flex;
+        flex-wrap: wrap;
+        width: 93.8%;
+    }
+
+    .nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+  
+}
