@@ -364,3 +364,15 @@ footer {
 
   
 }
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
